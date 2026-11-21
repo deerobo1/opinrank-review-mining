@@ -1,0 +1,12 @@
+step,dirty_data_type,rule,rows_before,rows_after,removed
+C1,format / encoding,parse <DOC> blocks / tab-separated lines; UTF-8 else cp1252; re-join multi-line reviews; skip binary files,296861,296861,0
+C2,incomplete,ignore the tuple when the review TEXT is missing or empty,296861,270532,26329
+C3,incomplete,fill missing title/favorite with '' and author with 'unknown'; keep missing dates as NaT,270532,270532,0
+C4,noisy,"unescape HTML entities, strip tags/URLs/control chars, collapse repeats, restore missing spaces",270532,270532,0
+C5,redundant,"drop duplicate reviews (same normalised text within a domain, keep the first)",270532,261374,9158
+C6a,noisy,drop reviews with fewer than 5 words,261374,261331,43
+C6b,outliers,flag (keep) reviews above the upper IQR fence Q3 + 1.5*IQR,261331,261331,0
+C7,noisy,"drop garbled/non-English text ('?' share > 30%, or >= 40 words with < 5% English stop-words)",261331,261330,1
+C8,inconsistent,unify the two date formats; drop impossible or unparseable dates,261330,261330,0
+C9,inconsistent naming,normalise entity names (hotel = file name after the city; car = year_make_model),261330,261330,0
+C10,noisy (numeric),equal-depth binning of word_count (10 bins per domain) + smoothing by bin means,261330,261330,0

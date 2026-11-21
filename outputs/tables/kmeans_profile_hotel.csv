@@ -1,0 +1,7 @@
+cluster,size,share,top_terms,mean_sentiment,neg_share,median_words,top_group
+0,17379,0.07961135695242283,"strip, vegas, casino, pool, las, nice, time, place, clean, just",0.2697972669177533,0.0348696702917314,175.0,Las Vegas (99%)
+1,30959,0.14181989757121,"new, york, square, times, nyc, subway, clean, central, just, small",0.3233413497108127,0.013824735941083369,150.0,New York (91%)
+2,14957,0.06851643166680409,"san, francisco, union, car, square, cable, wharf, parking, street, clean",0.31213483991213103,0.023132981212810055,148.0,San Francisco (97%)
+3,36897,0.16902124618640574,"london, tube, station, breakfast, clean, walk, small, nice, just, night",0.3012307937772737,0.024338022061414208,145.0,London (97%)
+4,67823,0.3106899742553757,"service, nice, clean, excellent, friendly, breakfast, helpful, comfortable, food, really",0.3591509544192804,0.02466714831251935,107.0,London (19%)
+5,50283,0.23034109336778166,"night, did, told, bed, desk, like, just, didn, got, bathroom",0.05897253434489426,0.25724399896585326,207.0,London (37%)

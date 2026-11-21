@@ -1,0 +1,23 @@
+issue,domain,count
+continuation lines re-joined,hotel,0
+empty review text,car,540
+empty review text,hotel,25789
+missing date,hotel,1587
+missing favorite / title,car,1639
+missing favorite / title,hotel,1
+HTML entity,hotel,50213
+HTML tag,car,5
+URL,car,5
+URL,hotel,487
+repeated punctuation,car,3109
+repeated punctuation,hotel,45672
+elongated word,car,314
+elongated word,hotel,5749
+missing space,car,1451
+missing space,hotel,112400
+duplicate review,car,892
+duplicate review,hotel,8266
+fewer than 5 words,car,11
+fewer than 5 words,hotel,32
+length outlier (flagged),hotel,12040
+garbled / non-English,hotel,1

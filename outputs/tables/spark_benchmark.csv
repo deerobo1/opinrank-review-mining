@@ -1,0 +1,27 @@
+task,engine,size,n,seconds,result
+frequent itemsets,Python: mlxtend Apriori,25%,54574,0.5153534412384033,2301.0
+frequent itemsets,Python: bitset Apriori (ours),25%,54574,0.12386703491210938,2301.0
+frequent itemsets,Python: mlxtend Apriori,50%,109149,0.8758580684661865,2287.0
+frequent itemsets,Python: bitset Apriori (ours),50%,109149,0.2654545307159424,2287.0
+frequent itemsets,Python: mlxtend Apriori,100%,218298,2.2640140056610107,2300.0
+frequent itemsets,Python: bitset Apriori (ours),100%,218298,0.462477445602417,2300.0
+frequent itemsets,Python: mlxtend Apriori,2x,436596,6.060500383377075,2300.0
+frequent itemsets,Python: bitset Apriori (ours),2x,436596,1.1545698642730713,2300.0
+frequent itemsets,Python: mlxtend Apriori,4x,873192,11.825652599334717,2300.0
+frequent itemsets,Python: bitset Apriori (ours),4x,873192,4.642136335372925,2300.0
+frequent itemsets,Python: mlxtend Apriori,8x,1746384,18.6408474445343,2300.0
+frequent itemsets,Python: bitset Apriori (ours),8x,1746384,3.4445607662200928,2300.0
+k-means,Python: scikit-learn KMeans,25%,54574,0.3872184753417969,40087.162905022065
+k-means,Python: scikit-learn KMeans,50%,109149,0.49309539794921875,80147.2318077643
+k-means,Python: scikit-learn KMeans,100%,218298,1.0408060550689697,160335.89805508332
+k-means,Python: scikit-learn KMeans,2x,436596,2.5746161937713623,321247.634561557
+frequent itemsets,PySpark: FPGrowth,25%,54574,13.43296480178833,2301.0
+frequent itemsets,PySpark: FPGrowth,50%,109149,12.997627258300781,2287.0
+frequent itemsets,PySpark: FPGrowth,100%,218298,18.37042546272278,2300.0
+frequent itemsets,PySpark: FPGrowth,2x,436596,29.892725467681885,2300.0
+frequent itemsets,PySpark: FPGrowth,4x,873192,44.86845016479492,2300.0
+frequent itemsets,PySpark: FPGrowth,8x,1746384,96.63440656661987,2300.0
+k-means,PySpark: KMeans,25%,54574,15.850229024887085,40449.330247751655
+k-means,PySpark: KMeans,50%,109149,14.467379570007324,80097.18582927578
+k-means,PySpark: KMeans,100%,218298,26.71977996826172,160114.27474548056
+k-means,PySpark: KMeans,2x,436596,47.98240280151367,320590.313962299

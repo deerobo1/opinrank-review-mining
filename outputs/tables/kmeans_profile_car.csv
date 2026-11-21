@@ -1,0 +1,8 @@
+cluster,size,share,top_terms,mean_sentiment,neg_share,median_words,top_group
+0,6539,0.16009303464316318,"mpg, highway, mileage, miles, city, gas, driving, great, getting, drive",0.2218805590555031,0.0573482183820156,96.0,Toyota (18%)
+1,2925,0.07161219243481454,"bmw, lexus, acura, audi, mercedes, series, luxury, great, infiniti, performance",0.26371048675705616,0.037606837606837605,98.0,BMW (14%)
+2,2682,0.06566287183253765,"truck, great, like, power, cab, love, ford, trucks, better, ride",0.24555194405448683,0.061148396718866516,87.0,Toyota (22%)
+3,5154,0.12618435549026807,"fun, drive, great, love, like, gas, just, good, driving, comfortable",0.35159290053921727,0.016492045013581685,75.0,Toyota (9%)
+4,8684,0.21260864242869384,"seats, great, interior, good, like, seat, comfortable, ride, room, power",0.27123254605275654,0.05446798710271764,101.0,Toyota (12%)
+5,3864,0.09460154241645244,"dealer, problem, miles, problems, replaced, times, dealership, new, service, noise",-0.02090923171415809,0.4332298136645963,108.0,Honda (9%)
+6,10997,0.2692373607540703,"love, great, vehicle, new, just, honda, like, best, price, suv",0.29734041010856005,0.03373647358370465,80.0,Honda (11%)

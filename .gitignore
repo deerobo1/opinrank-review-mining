@@ -1,0 +1,24 @@
+# Dataset and intermediate files (download from UCI; not redistributed)
+data/
+*.parquet
+*.rar
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Spark
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
